@@ -1,0 +1,55 @@
+body {
+    font-family: 'Barlow Condensed', sans-serif;
+}
+.wrapper {
+    padding: 16px 32px;
+}
+.d-flex {
+    display: flex;
+}
+.ml-2 {
+    margin-left: 12px;
+}
+.mr-2 {
+    margin-right: 12px;
+}
+.mt-2 {
+    margin-top: 12px;
+}
+.mb-2 {
+    margin-bottom: 12px;
+}
+.mb-1 {
+    margin-bottom: 8px;
+}
+.m-0 {
+    margin: 0;
+}
+.color-input {
+    min-width: 280px;
+    padding: 12px 16px;
+    border-radius: 8px;
+    line-height: 18px;
+    font-size: 14px;
+    color: #999;
+    box-sizing: border-box;
+    box-shadow: none;
+    border: 2px solid #eee;
+}
+.color-input:hover,
+.color-input:active,
+.color-input:focus {
+    border-radius: 8px;
+    box-shadow: none;
+    outline: none;
+}
+.btn {
+    padding: 12px 16px;
+    border: 0;
+    outline: 0;
+    border-radius: 8px;
+    background: #ff6868;
+    line-height: 18px;
+    font-size: 14px;
+    cursor: pointer;
+}

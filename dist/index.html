@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Change Background with simple JQuery</title>
+
+    <!-- Fonts (it's not necessary)  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@100;300;500;700;900&display=swap" rel="stylesheet">
+
+    <!-- it's not necessary just for beautifull :) -->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <div class="wrapper">
+
+        <h1>Change background Color</h1>
+        <p class="mb-1">Enter Hex or RGB Color: </p>
+
+        <!-- all you need this input and button-->
+        <div class="d-flex">
+            <div><input id="colorinput" class="color-input" type="text" name="color" placeholder="#000000"></div>
+            <div class="ml-2"><button id="my-btn" class="btn">Change Background</button></div>
+        </div>
+
+        <ul>
+            <li><a href="https://github.com/mohsen-hasanpour/">Source Code</a></li>
+            <li><a class="copyright" href="https://github.com/mohsen-hasanpour/">Mohsen Hasanpour</a></li>
+            <li><a class="copyright" href="https://tutsxen.net">Tutsxen academy</a></li>
+        </ul>
+
+    </div>
+
+    <!-- Add JQuery-->
+    <script src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
+    <!-- main jquery code-->
+    <script src="script.js"></script>
+</body>
+</html>
